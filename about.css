@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.note{
+    margin-left: 250px;
+    font-size: 20px;
+}
+.note h1{
+    margin-right: 400px;
+}
+.note p{
+    padding: 20px;
+    margin-left: 100px;
+}
+.list{
+    margin-left: 350px;
+    padding: 20px;
+    font-size: 20px;
+}
+.list li{
+    padding: 20px;
+}

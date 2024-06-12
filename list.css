@@ -1,0 +1,309 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    border: 2px solid black;
+    background-color: black;
+}
+nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+nav h1{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 130px;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 35px;
+}
+.search{
+    width: 300px;
+    float: none;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    padding: 10px;
+    border-radius: 30px;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.nav-links li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+nav a{
+    list-style: none;
+    color: white;
+    font-size: 25px;
+}
+.container{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.containers{
+    display: grid;
+    grid-gap: 20px;
+}
+.containers img{
+    width: 20%;
+    border-radius: 10px;
+}
+.box1{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box1 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box2{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box2 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link2{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box3{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box3 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link3{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box4{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box4 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link4{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box5{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box5 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link5{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box6 img{
+    height: 230px;
+}
+.box6{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box6 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link6{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box7{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box7 p{
+    margin-top: 1px;
+    font-size: 20px;
+}
+.link7{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 1px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box8 img{
+    height: 230px;
+}
+.box8{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box8 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link8{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box9{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box9 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link9{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box10{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box10 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link10{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box11{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box11 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link11{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.box12{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.box12 p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.link12{
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    width: 95px;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
